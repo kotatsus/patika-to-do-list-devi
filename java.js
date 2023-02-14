@@ -7,7 +7,7 @@ for (let i = 0; i < myNodeList.length; i++) {
     myNodeList[i].appendChild(span);
 }
 
-// hangi liste öğesinde kapat düğmesine tıklanırsa gizle 
+
 let close = document.getElementsByClassName("close");
 
 for (let i = 0; i < close.length; i++) {
@@ -17,16 +17,16 @@ for (let i = 0; i < close.length; i++) {
     }
 }
 
-// Her hangi bir liste öğesine tıkladığında checkhed classını toggle etmek
+
 let list = document.querySelector("ul") 
 list.addEventListener("click",function(event){
     if ( event.target.tagName === "LI") {
         event.target.classList.toggle("checked");
-        // console.log(event.target.tagName)
+       
     }
 },false );
 
-// Ekle butonuna tıklandığında yeni liste ögesi eklemek close clasını eklemek checked clasını eklemek
+
 function newElement() {
     let liDOM = document.createElement("li");
     let inputValue = document.getElementById("task").value;

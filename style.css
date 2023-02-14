@@ -109,9 +109,9 @@
     cursor: pointer;
     position: relative;
     padding: 12px 8px 12px 40px;
-    background: #3b39d0; /*arka plan rengini lacivert yaptık*/
+    background: #3b39d0; 
     font-size: 18px;
-    text-decoration: line-through; /*yazının üzerini çizili yaptık*/
+    text-decoration: line-through; 
     transition: 0.2s;
     list-style-type: none;
   
